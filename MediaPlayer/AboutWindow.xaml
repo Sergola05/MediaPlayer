@@ -1,0 +1,30 @@
+﻿<Window x:Class="MediaPlayer.AboutWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MediaPlayer"
+        mc:Ignorable="d"
+        Title="AboutWindow" Height="450" Width="800" FontSize="48">
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Center">
+        <TextBlock>
+            <Run Text="S" Foreground="Red"/>
+            <Run Text="e" Foreground="Blue"/>
+            <Run Text="r" Foreground="Green"/>
+            <Run Text="g" Foreground="Orange"/>
+            <Run Text="e" Foreground="Aqua"/>
+            <Run Text="y" Foreground="Red"/>
+            <Run Text="_" Foreground="Aqua"/>
+            <Run Text="P" Foreground="Orange"/>
+            <Run Text="o" Foreground="Green"/>
+            <Run Text="r" Foreground="Blue"/>
+            <Run Text="y" Foreground="Orange"/>
+            <Run Text="a" Foreground="Red"/>
+            <Run Text="d" Foreground="Aqua"/>
+            <Run Text="i" Foreground="Green"/>
+            <Run Text="n" Foreground="Blue"/>
+            <Run Text=" "/>
+        </TextBlock>
+        <TextBlock Text="Поставьте 100 баллов" Margin="0,60,0,40" FontWeight="Bold" FontSize="48" Foreground="Purple"/>
+    </Grid>
+</Window>
